@@ -27,15 +27,3 @@ while (previous_step_size > precision) and (iters < max_iters):
     djt = dj_theta(cur_theta)
     previous_step_size = reduce(operator.add, abs(cur_theta-prev_theta))
     iters +=1
-
-
-
-
-
-
-
-
-
-
-
-
